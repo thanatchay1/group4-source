@@ -1,0 +1,842 @@
+/*------------------------------------- For PC  -------------------------------------*/
+/*-------------------------------------menu bar-------------------------------------*/
+
+.img-fluid {
+    height: 65px;
+    width: 200px;
+}
+
+.navbar {
+    background-color: #FF9B00 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:active {
+    color: white !important;
+}
+
+/*-------------------------------------index-------------------------------------*/
+
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+.header {
+    background-size: contain;
+    background: url(../assets/images/bg.png);
+    background-position: center center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.container.ms-auto.mb-2.mb-lg-0.d-flex.justify-content-end {
+    padding-top: 50px;
+    max-width: 100vw;
+    top: 50px;
+}
+
+.col-xxl-1 img {
+    margin-top: 3;
+}
+
+.col-xxl-1 {
+    background-color: rgb(30, 30, 30);
+    background-size: cover;
+    width: 200px;
+    text-align: center;
+    height: 94vh;
+}
+
+.col-xxl-11 {
+    height: 100vh;
+}
+
+.label p {
+    margin-top: 40;
+    font-size: 36px;
+    font-weight: bold;
+    background: white;
+    color: black;
+    border-radius: 25px;
+    margin-left: 15;
+    margin-right: 15;
+}
+
+.text-center {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+
+.text1 {
+    text-shadow: 3px 3px #7a0092;
+}
+
+.text2 {
+    text-shadow: 4px 4px #ffc505;
+}
+
+.container-inform h1 {
+    font-size: 90px;
+    font-weight: bold;
+    color: black;
+    padding-top: 30;
+    padding-bottom: 40;
+}
+
+@font-face {
+    font-family: "SOV_Thanamas";
+    src: url(../assets/font/SOV_Thanamas.ttf);
+}
+
+@font-face {
+    font-family: "PSLxOmyim";
+    src: url(../assets/font/PSLxOmyim.ttf);
+}
+
+.container h1 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 130px;
+    font-weight: normal;
+    color: white;
+    font-family: "SOV_Thanamas";
+    text-shadow: 5px 5px rgb(145, 0, 138);
+}
+
+.welcom2 {
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+    font-family: "PSLxOmyim";
+    padding-top: 30;
+    text-shadow: 4px 4px rgb(145, 0, 44);
+}
+
+.welcom1:hover {
+    font-size: 134px;
+}
+
+.welcom2:hover {
+    font-size: 52px;
+}
+
+.row {
+    font-size: 48px;
+    background-color: rgb(20, 20, 20);
+    max-width: 100%;
+    min-height: 60%;
+}
+
+.container-inform {
+    max-width: 100%;
+}
+
+.col-4 {
+    padding-left: 20px;
+    color: white;
+    word-wrap: break-word;
+    max-width: 100%;
+    padding-top: 20;
+    padding-bottom: 20;
+}
+
+.col-4 p {
+    font-size: 27px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    text-indent: 1.5em;
+    text-shadow: 1px 1px #884200;    
+}
+
+.col-8 {
+    height: 100%;
+    max-width: 100%;
+    padding-top: 30;
+    padding-bottom: 30;
+}
+
+.carousel {
+    height: 100%;
+    width: 100%;
+
+}
+
+.carousel-item {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: black;
+    border: none;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 40%;
+    height: 40%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    width: 60%;
+    height: 60%;
+}
+
+.carousel-control {
+    padding: 1% 3%;
+    background-color: #ffffff;
+    border-radius: 20%;
+    border-color: black;
+}
+
+.carousel-control:hover {
+    padding: 0.5% 4%;
+    background-color: #FF9B00;
+}
+
+.down {
+    padding-bottom: 10;
+    padding-top: 20;
+}
+
+.down p{ 
+    margin-bottom: 10;
+}
+
+
+/*-------------------------------------contact box-------------------------------------*/
+
+
+.col-xxl-11 div#cont.contact_box {
+    background: #FF9B00;
+    min-height: 55%;
+    min-width: 75%;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    display: none;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 0px 5px 5px #DBA632;
+    border: 3px solid black;
+}
+
+
+
+.col-xxl-11 div#cont.contact_box p.con_head.text-center {
+    color: black;
+    font-size: 60px;
+    font-weight: lighter;
+    text-shadow: 3px 3px 8px black;
+
+}
+
+.col-xxl-11 div#cont.contact_box div.container div.row div.col-md-4 {
+    font-size: 40px;
+    font-weight: lighter;
+    background-color: #FF9B00 !important;
+    border: 1px solid black;
+}
+
+.maill {
+    color: black;
+    ;
+    text-decoration: none;
+}
+
+.maill:hover {
+    color: black;
+    ;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.maill:active {
+    font-weight: bold;
+}
+
+.col-xxl-11 div#cont.contact_box div.container div.row div.col-md-4 div.tellist {
+    font-size: 25px;
+}
+
+.telephone:hover {
+    font-weight: bolder;
+}
+
+.msg-text:hover {
+    font-weight: bolder;
+}
+
+.msg-text {
+    margin-bottom: 5;
+    margin-top: 15;
+}
+
+.col-xxl-11 div#cont.contact_box div.container div.row div.col-md-4 div.maillist {
+    font-size: 25px;
+}
+
+.col-xxl-11 div#cont.contact_box div.container div.row div.msg.col-md-4 {
+    font-size: 25px;
+}
+
+/*-------------------------------------menu member-------------------------------------*/
+
+.image-fluid {
+    border-radius: 100px
+}
+
+.image-T1:hover {
+    background-color: rgb(253, 131, 17);
+    border: 3px solid rgb(253, 131, 17);
+}
+
+.image-T2:hover {
+    background-color: rgb(0, 255, 34);
+    border: 3px solid rgb(0, 255, 34)
+}
+
+.image-T3:hover {
+    background-color: rgb(0, 255, 200);
+    border: 3px solid rgb(0, 255, 200);
+}
+
+.image-T4:hover {
+    background-color: rgb(238, 255, 0);
+    border: 3px solid rgb(238, 255, 0);
+}
+
+.image-fluid:active {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+}
+
+/*-------------------------------------member-------------------------------------*/
+
+.header-member4,
+.header-member3,
+.header-member2,
+.header-member1 {
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.header-member4 {
+    background: url(../assets/images/4.png) no-repeat;
+    text-shadow: 2px 2px rgb(143, 0, 67);
+}
+
+.header-member3 {
+    background: url(../assets/images/3.png) no-repeat;
+    text-shadow: 2px 2px rgb(153, 0, 127);
+}
+
+.header-member2 {
+    background: url(../assets/images/2.png) no-repeat;
+    text-shadow: 2px 2px rgb(0, 0, 145);
+}
+
+.header-member1 {
+    background: url(../assets/images/1.png) no-repeat;
+    text-shadow: 2px 2px rgb(150, 0, 0);
+}
+
+
+.container-member {
+    height: 90vh;
+    padding-left: 150px;
+
+}
+
+.header-content-member {
+    width: 600px;
+    color: white;
+}
+
+.header-content-member h1 {
+    font-size: 100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    animation: text .7s infinite;
+    transition: .5s;
+}
+
+.header-content-member p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    animation: text .7s infinite;
+    transition: .50s;
+}
+
+.header-content-member h1:hover {
+    font-size: 150px;
+
+}
+
+.header-content-member p:hover {
+    font-size: 30px;
+
+}
+
+.header-content-member h1:hover,
+.header-content-member p:hover {
+    animation: none;
+    transition: .5s;
+}
+
+.T1:hover,
+.L1:hover {
+    color: rgb(253, 131, 17);
+}
+
+.T2:hover,
+.L2:hover {
+    color: rgb(0, 255, 34);
+}
+
+.T3:hover,
+.L3:hover {
+    color: rgb(0, 255, 200);
+}
+
+.T4:hover,
+.L4:hover {
+    color: rgb(238, 255, 0);
+}
+
+.T1:active,
+.T2:active,
+.T3:active,
+.T4:active {
+    font-weight: bold;
+}
+
+/*-------------------------------------loader-------------------------------------*/
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader-inner {
+    0% {
+        height: 0%;
+    }
+
+    25% {
+        height: 0%;
+    }
+
+    50% {
+        height: 100%;
+    }
+
+    75% {
+        height: 100%;
+    }
+
+    100% {
+        height: 0%;
+    }
+}
+
+/*-------------------------------------arrow member-------------------------------------*/
+
+.arrow-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 95vmax;
+    transform: translate(-50%, -50%);
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    width: 6vmin;
+    height: 6vmin;
+    background: transparent;
+    border-top: 1vmin solid white;
+    border-right: 1vmin solid white;
+    box-shadow: 0 0 0 lightgray;
+    transition: all 200ms ease;
+}
+
+.left {
+    left: 0;
+    transform: translate3d(0, -50%, 0) rotate(-135deg);
+}
+
+.right {
+    right: 0;
+    transform: translate3d(0, -50%, 0) rotate(45deg);
+}
+
+.arrow:hover {
+    border-color: orange;
+    box-shadow: 0.75vmin -0.75vmin 0 white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.arrow:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -60%) rotate(45deg);
+    width: 200%;
+    height: 200%;
+}
+
+/*-------------------------------------arrow index-------------------------------------*/
+
+.center-con {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.round {
+    position: relative;
+    border: 3px solid #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.round span {
+    z-index: 999;
+    height: 3px;
+    margin: 1px;
+    width: 30px;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+.round span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 35%;
+}
+
+.round span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 35%;
+}
+
+.round span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 54%;
+}
+
+.round span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%;
+}
+
+.round:hover span:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round:hover span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round:hover span:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
+
+/*-------------------------------------carousel-------------------------------------*/
+
+.carousel {
+    left: 6%;
+    top: 4%;
+    height: 500px;
+    width: 1100px;
+}
+
+/*-------------------------------------back to top-------------------------------------*/
+
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#button:active {
+    background-color: #555;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*--------------------------- Lines below here will use a force to make your orientation go horizontal no matter what -------------------------*/
+/*--------------------------- Recommend view in horizontal for full flavour -------------------------*/
+
+/*--------------------------- For IPAD (horizontal) -------------------------*/
+@media only screen and (max-device-width: 1024px) and (orientation:landscape){
+    body > nav{
+        width: 100%;
+    }
+    body > section.inform > div.row > div.col-4 > p{
+        font-size:20px;
+    }
+    body > section.inform > div.down{
+        width:100%;
+        align-items: center;
+    }
+    body > section.inform > div.container-inform{
+        width: 1400px !important;
+    }
+    #carouselExampleCaptions{
+        width:100%;
+    }
+    body > section.inform > div.container-inform > h1{
+        font-size:50px;
+    }
+    body > section.inform{
+        margin-top: 80px;
+    }
+    body > section.header > div > div.col-xxl-11 > h1 > p.welcom1{
+        font-size:100px;
+    }
+    body > section.header > div > div.col-xxl-11 > h1{
+        margin-left: -60;
+    }
+    
+    #cont{
+        margin-top: 20px;
+    }
+    #name,#address,#payload{
+        width:100%;
+    }
+}
+
+/*--------------------------- For IPAD PRO (horizontal) -------------------------*/
+@media only screen and (max-device-width: 1366px) and (orientation:landscape){
+    body > section.inform > div.row > div.col-8{
+        width: 60%;
+    }
+    body > nav{
+        width: 100%;
+    }
+    body > section.inform > div.row > div.col-4 > p{
+        font-size:20px;
+    }
+    body > section.inform > div.down{
+        width:100%;
+        align-items: center;
+    }
+    body > section.inform > div.container-inform{
+        width: 1400px !important;
+    }
+    #carouselExampleCaptions{
+        width:100%;
+    }
+    body > section.inform > div.container-inform > h1{
+        font-size:50px;
+    }
+    body > section.inform{
+        margin-top: 80px;
+    }
+    body > section.header > div > div.col-xxl-11 > h1 > p.welcom1{
+        font-size:100px;
+    }
+    body > section.header > div > div.col-xxl-11 > h1{
+        margin-left: -60;
+    }
+    #cont{
+        margin-top: 20px;
+    }
+    #name,#address,#payload{
+        width:100%;
+    }
+}
+
+/*--------------------------- For 1080 * 1920 (Vertical Smartphone) -------------------------*/
+@media only screen and (max-device-width: 1080px) and (orientation:portrait){
+    html{
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    height: 100vw;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    }
+}
+/*--------------------------- For 750 * 1334 (Vertical Smartphone) -------------------------*/
+@media only screen and (max-device-width: 750px) and (orientation:portrait){
+    html{
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        height: 100vw;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        }
+}
+/*--------------------------- For 1440 * 2960 (Vertical Smartphone) -------------------------*/
+@media only screen and (max-device-width: 1440px) and (orientation:portrait){
+    html{
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        height: 100vw;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        }
+}
+/*--------------------------- For 1125 * 2436 (Vertical Smartphone) -------------------------*/
+@media only screen and (max-device-width: 1125px) and (orientation:portrait){
+    html{
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        height: 100vw;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        }
+}
+/*--------------------------- For 720 * 1280 (Vertical Smartphone) -------------------------*/
+@media only screen and (max-device-width: 720px) and (orientation:portrait){
+    html{
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        height: 100vw;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        }
+}

@@ -1,0 +1,266 @@
+<html lang="en">
+<link rel="shortcut icon" href="assets/images/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/apple-touch-icon-144-precomposed.png">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Group 4</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark  bg-dark fixed-top">
+    <div class="container-fluid">
+      <a href="#"><img src="assets/images/ite-logo.png" class="img-fluid"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mb-auto ms-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                height="20" fill="currentColor" class="bi bi-house" viewBox="0 2 16 16">
+                <path fill-rule="evenodd"
+                  d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                <path fill-rule="evenodd"
+                  d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+              </svg> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#1">Information</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Members
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="member1.html">Pakin (Phu)</a></li>
+              <li><a class="dropdown-item" href="member2.html">Kajbundit (Miw)</a></li>
+              <li><a class="dropdown-item" href="member3.html">Rueangkiat (Boom)</a></li>
+              <li><a class="dropdown-item" href="member4.html">Thanart (Chay)</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="cont();">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <a id="button"></a>
+
+  <section class="header">
+    <div class="container ms-auto mb-2 mb-lg-0 d-flex justify-content-end">
+      <div class="col-xxl-11">
+        <h1 class="text-center">
+          <p class="welcom1">
+            Welcome To Group 4
+          </p>
+          <p class="welcom2">
+            --- ยินดีต้อนรับสู่ผลงานของสมาชิกกลุ่ม 4 ---
+          </p>
+        </h1>
+
+        <!---Contact Box-->
+        <div class="contact_box" id="cont">
+          <p class="con_head text-center">Contact Us</p>
+          <div class="container">
+            <div class="row">
+              <!--Left side (Telephone number)-->
+              <div class="col-md-4">
+                <p class="telhead d-inline-block telephone">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-phone"
+                    viewBox="0 0 20 20">
+                    <path
+                      d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                  </svg>
+                  Telephone
+                </p>
+                <div class="tellist">
+                  <p class="listtel1 telephone">081 - 586 - 4314 (Pakin)</p>
+                  <p class="listtel2 telephone">091 - 731 - 0066 (Kajbundit)</p>
+                  <p class="listtel3 telephone">095 - 254 - 6171 (Thanart)</p>
+                  <p class="listtel4 telephone">065 - 516 - 4893 (Rueangkiat)</p>
+                </div>
+              </div>
+              <div class="mail col-md-4">
+                <p class="mailhead d-inline-block telephone">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-envelope" viewBox="0 0 20 20">
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                  </svg>
+                  E-Mail
+                </p>
+                <div class="maillist">
+                  <p class="maillist1"><a href="mailto:62010669@kmitl.ac.th" class="maill">62010669@kmitl.ac.th
+                      (Pakin)</a></p>
+                  <p class="maillist2"><a href="mailto:62010057@kmitl.ac.th" class="maill">62010057@kmitl.ac.th
+                      (Kajbundit)</a></p>
+                  <p class="maillist4"><a href="mailto:62010782@kmitl.ac.th" class="maill">62010782@kmitl.ac.th
+                      (Rueangkiat)</a></p>
+                  <p class="maillist3"><a href="mailto:62010388@kmitl.ac.th" class="maill">62010388@kmitl.ac.th
+                      (Thanart)</a></p>
+                </div>
+              </div>
+              <div class="msg col-md-4">
+                <form>
+                  <label for="fname">
+                    <p class="msg-text">Name-Surname</p>
+                  </label>
+                  <input type="text" id="name" name="name" value="">
+                  <label for="lname">
+                    <p class="msg-text">Sent to who?</p>
+                  </label>
+                  <input type="text" id="address" name="address" value="">
+                  <label for="lname">
+                    <p class="msg-text">Your message</p>
+                  </label>
+                  <input type="text" id="payload" name="msg" value=""><br><br>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#1" class="arrow-container">
+          <div class="center-con">
+            <div class="round">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-xxl-1 align-items-center justify-content-center">
+        <div class="label">
+          <p>Group 4</p>
+        </div>
+        <p class="text-center text1">Leader</p>
+        <a href="member1.html"><img src="assets/images/group1.png" class="image-fluid image-T1"></a>
+        <p class="text-center text1">Members</p>
+        <a href="member2.html"><img src="assets/images/group2.png" class="image-fluid image-T2"></a>
+        <a href="member3.html"><img src="assets/images/group3.png" class="image-fluid image-T3"></a>
+        <a href="member4.html"><img src="assets/images/group4.png" class="image-fluid image-T4"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="inform">
+    <div class="container-inform" style="background-color: white;">
+      <h1 class="text-center text2">
+        <a name="1"></a>
+        What is Information Engineering?
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <p>
+          สาขาวิศวกรรมสารสนเทศ เป็นเสมือนฟันเฟืองที่เชื่อมองค์ประกอบทั้งสามเข้าด้วยกัน
+          ทั้งคอมพิวเตอร์ อิเลคทรอนิคส์และโทรคมนาคม
+          เป็นบุคคลกลาง ที่ทำหน้าที่ประสานงานจาก
+          ด้านต่างๆเข้าด้วยกัน เพื่อสร้างเเละจัดการ
+          ความสัมพันธ์ที่ทั้งสามองค์ประกอบกล่าวถึง
+          โดยมีจุดประสงค์เพื่อให้เกิดการทำงานร่วมกัน
+          ของระบบได้อย่างมีประสิทธิภาพ รวมถึงเพื่อ
+          ให้เกิดการนำไปประยุกต์ใช้ และพัฒนาต่อยอด
+          เพื่อให้เกิดเป็นประโยชน์สูงสุดต่อส่วนรวม
+          อีกด้วยนั่นเอง
+        </p>
+      </div>
+      <div class="col-8">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+              class="active carousel-control" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              class="carousel-control" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              class="carousel-control" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+              class="carousel-control" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/slideshow1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/slideshow2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/slideshow3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/slideshow4.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="down" style="background-color:rgb(0, 0, 0); color:rgb(255, 255, 255); text-align: center; width: 100%;">
+      <p id="time">
+      </p>
+      <p align="center">Copyright &copy; 2021 : This web page is part of course ID 01236125, Web and Mobile
+        Technologies.<br>
+        Semester 2, Academic Year 2020, Program in Information Engineering,
+        Faculty of Engineering, King Mongkut's Institute of Technology Ladkrabang.
+      </p>
+
+    </div>
+
+  </section>
+
+  <div class='spinner-wrapper'>
+    <div class="spinner"></div>
+  </div>
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
+  <script>
+    function cont() {
+      if (document.getElementById('cont').style.display == 'none') {
+        document.getElementById('cont').style.display = 'block';
+      } else {
+        document.getElementById('cont').style.display = 'none';
+      }
+    }
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
